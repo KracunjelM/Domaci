@@ -1,0 +1,31 @@
+.lorem1::first-letter{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.lorem1{
+  letter-spacing: 5px;
+  text-align: left;
+}
+
+.lorem2{
+    text-transform: lowercase;
+    text-decoration: line-through;
+    line-height: 200%;
+    text-align: right;
+}
+
+.lorem3{
+    font-style: none;
+    text-align: center;
+}
+
+a:link {
+    text-shadow: 8px 21px 0px rgba(150, 150, 150, 1);
+    color: red; 
+}
+
+a:visited {
+    color:rgb(186, 206, 5);
+}
+
+

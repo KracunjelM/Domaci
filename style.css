@@ -1,0 +1,46 @@
+/* hvata sve h1 tagove na stranici */
+h1 {
+ background-color: aqua;
+}
+
+/* hvata sve p i h2 tagove na stranici */
+p, h2 {
+background-color: antiquewhite;
+}
+
+/* hvata sve paragrafe sa klasom box */
+p.box{
+    background-color: blue;
+}
+
+/* sve tagove na stranici koji imaju klasu box */
+.box{
+    background-color: brown;
+}
+
+/* hvata PRVI PARAGRAF TAG KONJI IMA ID TITLE */
+p#title{
+    background-color: blueviolet;
+}
+
+/* hvata PRVI TAG KOJI IMA */
+#subtitle{
+   background-color: aquamarine;
+}
+/* hvatam sve paragrafe koji su u prvom kolenu od diva */
+div > p{
+  background-color: yellowgreen;
+}
+
+/* hvatm sve p elemente koji se nalaze unutar div tag */
+div p {
+    background-color: blue;
+}
+div > * {
+    background-color: rgb(0, 255, 85);
+}
+
+/* hvata sve h1 tagove i sve span elemente sa klasom imp koji su direktni naslednici p taga  */
+h1, p > span.imp {
+  background-color: rgb(245, 220, 234);
+}

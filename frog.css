@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif , serif;
+  box-sizing: border-box;
+}
+
+.title {
+  display: ;
+  background-color: #c2ee90;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+h1 {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: #6f9741;
+}
+
+nav a:link {
+  color: #dce2c5;
+  display: inline-block;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #dce2c5;
+}
+
+.body {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main {
+  margin-left: 280px;
+  margin-right: 280px;
+}
+
+h2 {
+  border: 2px;
+}
+
+.post {
+  color: grey;
+}
+
+span {
+  color: green;
+  font-size: 18px;
+}
+
+strong {
+  color: red;
+}
+
+.post-header {
+  border-top: 1px solid green;
+  padding-top: 20px;
+}
+
+.frogpic {
+  display: inline-block;
+}
+
+.second-title {
+  border-top: 1px solid green;
+  padding-top: 20px;
+}
+
+.send {
+  padding: 0 25px;
+  border-radius: 500px;
+  background-color: green;
+  color: azure;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #6f9741;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  display:block
+}
+
+.button {
+  background-color: #6f9741;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
